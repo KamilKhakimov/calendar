@@ -1,20 +1,24 @@
 * {
   font-family: 'Calibri';
 }
+
 body {
   width: 100%;
 }
+
 form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
+
 input {
   width: 120px;
   font-size: 20px;
   background-color: aqua;
-  border: 2px solid black;
+  border: 2px solid grey;
 }
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -22,17 +26,20 @@ input {
   justify-content: center;
   margin: 0 auto;
 }
+
 table {
   border-collapse: collapse;
   margin-bottom: 10px;
   margin-right: 10px;
 }
+
 caption {
   padding: 10px 0;
   background-color: #fff6ce;
   border: 1px solid black;
   border-bottom: none;
 }
+
 td,
 th {
   border: 1px solid black;
@@ -40,10 +47,12 @@ th {
   text-align: center;
   font-size: 18px;
 }
+
 th {
   font-weight: bold;
   background-color: #fff6ce;
 }
+
 h4 {
   text-transform: uppercase;
 }
